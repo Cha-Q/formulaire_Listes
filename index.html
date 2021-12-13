@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Exo Liste</title>
+</head>
+<body>
+    <h1>Liste d'utilisateurs</h1>
+
+    <form id="forms">
+    <fieldset>
+        <legend>Entrer un utilisateur</legend>
+        <label for="prenom"> Votre prénom : </label>
+        <input type="text" id="prenomForm" name="prenom" placeholder="Saisir votre prénom" >
+        <br>
+        <label for="age"> Age : </label>
+        <input type="number" id="ageForm" name="age" placeholder="Saisir votre age" >
+        <br>
+        <label for="role"> Votre role : </label>
+        <select type="select" id="roleForm" nom="role">
+            <option value="administrateur"> Admin</option>
+            <option value="utilisateur"> utilisateur</option>
+        </select>
+
+        <input type="button" value="valider" id="sub">
+    </fieldset>
+    </form>
+    <div>
+        <input type="button" value="Tri par ID" id="idTri">
+        <input type="button" value="Tri par prenom" id="prenomTri">
+        <input type="button" value="Tri par age" id ="ageTri">
+    </div>
+    <div id="usersList">
+
+    </div>
+
+    <script src="exoLists.js"></script>
+</body>
+</html>

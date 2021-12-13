@@ -1,0 +1,17 @@
+html{
+    background-color: rgb(48, 48, 48);
+}
+*{
+    color: chocolate;
+    font-family: roboto;
+}
+select{
+    color: black;
+    width: 100px;
+}
+#sub{
+    color: black;
+}
+fieldset{
+    width: 60%;
+}
